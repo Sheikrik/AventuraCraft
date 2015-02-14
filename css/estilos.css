@@ -464,10 +464,7 @@ header
   background: rgba(238, 238, 238, 0.5);
   border: 5px solid #000;
   font-family: 'minecraft';
-  margin: 0 auto;
-  max-width: 1000px;
   padding: 10px;
-  position: relative;
   text-align: center;
 }
 li
@@ -495,6 +492,26 @@ ul
 #logo span
 {
   color: #DC0A37;
+}
+#menu_servidor
+{
+  display: none;
+  font-family: 'minecraft';
+  width: 275px;
+}
+#menu_servidor li
+{
+  font-size: 35px;
+  padding: 0;
+  text-shadow: 3px 2px 5px;
+}
+#menu_servidor ul
+{
+  background: rgba(238, 238, 238, 0.5);
+  border: 5px solid #000;
+  border-top: 0;
+  padding: 15px;
+  text-align: left;
 }
 #navegacion a:hover
 {
@@ -550,6 +567,12 @@ ul
   margin: 25px auto;
   max-width: 1000px;
   padding: 20px 10px;
+  position: relative;
+}
+#wrapper_header
+{
+  margin: 0 auto;
+  max-width: 1030px;
   position: relative;
 }
 .encabezado
