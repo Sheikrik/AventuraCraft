@@ -1,3 +1,5 @@
+// Funcion especifica de la pasarela de imagenes
+
 $(function() {
 	$("#rslides").responsiveSlides({
 		pager: false,
