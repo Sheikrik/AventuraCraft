@@ -649,9 +649,21 @@ ul
 {
   margin: 0 45.5px;
 }
+.staff
+{
+  display: inline-block;
+}
+.staff img, .staff h2
+{
+  cursor: pointer;
+}
 .wrapper_min
 {
   margin: 0 auto;
   max-width: 1000px;
   position: relative;
+}
+.wrapper_staff
+{
+  text-align: center;
 }
