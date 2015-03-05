@@ -426,11 +426,11 @@ th {
   padding: 0;
 }
 
-/*ESTILOS SORETI*/
+/*ESTILOS AVC*/
 
 @font-face {
   font-family: 'minecraft';
-  src:url('../fonts/minecraft/minecraft.otf?-hikrc') format('truetype');
+  src:url('../fonts/minecraft/minecraft.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -455,6 +455,13 @@ footer
   background: #EEE;
   text-align: center;
 }
+form div
+{
+  display: inline-block;
+  margin-right: 10px;
+  padding: 0;
+  width: 48%;
+}
 h3
 {
   font-size: 15px;
@@ -467,9 +474,31 @@ header
   padding: 10px;
   text-align: center;
 }
+input
+{
+  border: 1px solid #BCBCBC;
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+}
+input:focus, input:hover, textarea:focus, textarea:hover
+{
+  border: 1px solid #0076B1;
+}
+input#enviar
+{
+  width: initial;
+}
 li
 {
   list-style: none;
+}
+textarea
+{
+  border: 1px solid #BCBCBC;
+  height: 83px;
+  vertical-align: top;
+  width: 49.9%;
 }
 ul
 {
@@ -510,10 +539,10 @@ ul
   background: rgba(238, 238, 238, 0.5);
   border: 5px solid #000;
   border-top: 0;
-  padding: 15px;
+  padding: 15px 15px 15px 50px;
   text-align: left;
 }
-#navegacion a:hover
+#menu_servidor a:hover, #navegacion a:hover
 {
   color: #DC0A37;
 }
@@ -575,6 +604,19 @@ ul
   max-width: 1030px;
   position: relative;
 }
+.beneficios
+{
+  height: 300px;
+  overflow-y: scroll;
+}
+.beneficios li
+{
+  padding-top: 10px;
+}
+.beneficios span
+{
+  font-weight: bold;
+}
 .encabezado
 {
   display: block;
@@ -613,6 +655,59 @@ ul
 {
   text-align: left;
 }
+.presentacion
+{
+  background: #FFF;
+  border: 1px solid #EEE;
+  border-radius: 10px;
+  height: 50%;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  top: 25%;
+  width: 600px;
+}
+.presentacion section
+{
+  display: inline-block;
+  width: 350px;
+}
+.presentacion figure
+{
+  display: inline-block;
+  margin: 0 20px;
+  vertical-align: top;
+}
+.presentacion h2
+{
+  background: #F0F0F0;
+  border-radius: 10px 10px 0 0;
+  margin: 0 0 10px 0;
+  padding: 10px 15px;
+}
+.presentacion h3
+{
+  margin: 0 0 10px 0;
+}
+.presentacion > span
+{
+  cursor: pointer;
+  margin: 10px 15px 0 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.presentacion_background
+{
+  background: rgba(0,0,0,0.8);
+  display: none;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
 .seccion, .seccion_min
 {
   background: #EEE;
@@ -623,7 +718,7 @@ ul
 {
   margin: 30px 0;
 }
-.seccion div, .seccion_min div
+.seccion > div, .seccion_min > div
 {
   padding: 10px;
 }
