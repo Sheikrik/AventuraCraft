@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8" />
-	<meta name="description" content="" />
+	<meta name="description" content="¡Tu opinión es importante! Ponte en contacto con nosotros y ayúdanos a mejorar esta gran comunidad" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	<title>Contacto | AventuraCraft Chile minecraft server 1.8</title>
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700" />
@@ -17,13 +17,14 @@
 			<section id="logo">
 				<h1><a href="index.html"><span>AVENTURA</span>CRAFT</a></h1>
 				<h2>Servidor minecraft Chile</h2>
+				<h2>IP: 192.99.18.75:25680</h2>
 			</section>
 			<nav>
 				<ul id="navegacion">
 					<li class="servidor"><a href="#">SERVIDOR</a></li>
 					<li><a href="http://aventuracraftchile.forochile.org/">FORO</a></li>
 					<li><a href="tienda.html">TIENDA</a></li>
-					<li><a href="contacto.html">CONTACTO</a></li>
+					<li><a href="contacto.php">CONTACTO</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -89,22 +90,21 @@
 			<section class="footer_info">
 				<h3>INFORMACIÓN</h3>
 				<ul>
-					<li><a href="#">Terminos y condiciones</a></li>
-					<li><a href="#">Politica de privacidad</a></li>
+					<li><a href="http://aventuracraftchile.forochile.org/t1-reglamento-de-la-comunidad">Reglamento</a></li>
 				</ul>
 			</section>
 			<section class="footer_info">
 				<h3>SIGUENOS</h3>
 				<ul>
-					<li><a href="#" ></a> FACEBOOK</li>
-					<li><a href="#" ></a> TWITTER</li>
-					<li><a href="#" ></a> GOOGLE+</li>
-					<li><a href="#" ></a> YOUTUBE</li>
+					<li><a class="icon-facebook" href="https://www.facebook.com/pages/Aventuracraft/188646714592333"></a> FACEBOOK</li>
+					<li><a class="icon-twitter" href="#" ></a> TWITTER</li>
+					<li><a class="icon-google-plus" href="#" ></a> GOOGLE+</li>
+					<li><a class="icon-youtube" href="https://www.youtube.com/user/AventuraCraftChile"></a> YOUTUBE</li>
 				</ul>
 			</section>
 			<div class="footer_aclaracion">
-				<p>- AventuraCraft no esta afiliado a Mojang.com o Minecraft.net. Todo lo referente a ellos en la comunidad es propiedad de Minecraft ®/TM & © 2009-2013 Mojang / Notch -</p>
-				<p>- Powered by Sheikrik -</p>
+				<p>- AventuraCraft no esta afiliada a Mojang.com o Minecraft.net. Todo lo referente a ellos en la comunidad es propiedad de Minecraft ®/TM & © 2009-2013 Mojang / Notch -</p>
+				<p>- Powered by <a href="mailto:sheikrik@gmail.com">Sheikrik</a> -</p>
 			</div>
 		</div>
 	</footer>

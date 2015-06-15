@@ -431,10 +431,80 @@ th {
 @font-face {
   font-family: 'minecraft';
   src:url('../fonts/minecraft/minecraft.otf') format('truetype');
+  src:url('../fonts/minecraft/minecraft.eot') format('embedded-opentype');
+  src:url('../fonts/minecraft/minecraft.woff') format('woff');
+  src:url('../fonts/minecraft/minecraft.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'avc';
+  src:url('../fonts/avc/avc.eot?-y6la0r');
+  src:url('../fonts/avc/avc.eot?#iefix-y6la0r') format('embedded-opentype'),
+    url('../fonts/avc/avc.woff?-y6la0r') format('woff'),
+    url('../fonts/avc/avc.ttf?-y6la0r') format('truetype'),
+    url('../fonts/avc/avc.svg?-y6la0r#avc') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'avc';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-down:before {
+  content: "\f0a3";
+}
+
+.icon-arrow-left:before {
+  content: "\f0a4";
+}
+
+.icon-arrow-right:before {
+  content: "\f078";
+}
+
+.icon-arrow-up:before {
+  content: "\f0a2";
+}
+
+.icon-close:before {
+  content: "\f081";
+}
+
+.icon-menu:before {
+  content: "\e9be";
+}
+
+.icon-google-plus:before {
+  color: #B93425;
+  content: "\ea89";
+}
+
+.icon-facebook:before {
+  color: #3A63A5;
+  content: "\ea8d";
+}
+
+.icon-twitter:before {
+  color: #2EACF6;
+  content: "\ea92";
+}
+
+.icon-youtube:before {
+  color: #D62422;
+  content: "\ea97";
+}
 a
 {
   color: #1C4571;
@@ -493,6 +563,10 @@ li
 {
   list-style: none;
 }
+nav
+{
+  margin-top: 25px;
+}
 textarea
 {
   border: 1px solid #BCBCBC;
@@ -516,7 +590,7 @@ ul
 #logo h2
 {
   font-size: 40px;
-  margin: 0 0 25px 0;
+  margin: 0;
 }
 #logo span
 {
@@ -697,6 +771,10 @@ ul
   right: 0;
   top: 0;
 }
+.presentacion-avatar
+{
+  height: initial;
+}
 .presentacion_background
 {
   background: rgba(0,0,0,0.8);
@@ -738,6 +816,8 @@ ul
 .seccion_min
 {
   display: inline-block;
+  height: 292px;
+  vertical-align: top;
   width: 300px;
 }
 .seccion_min:nth-child(2)
